@@ -1,0 +1,19 @@
+#solution1:
+#The * is actually used to unpack a iterator. *[1,2,3] mean 1 2 3
+#You can find the solution and detailed explanation here: https://www.thepoorcoder.com/hackerrank-print-function-solution/
+print(*range(1, int(input())+1), sep='')
+
+#solution2:
+#For short operator '*' allows you to pass an array. Example:
+user = [name, password, captcha]
+log_in(*user)
+
+#solution3:
+n = int(input())
+for i in range(1,n+1):
+    print(i,end="")
+    
+#solution4:
+n = int(input())
+print(*range(1,n+1),sep="")
+ 
